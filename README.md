@@ -96,3 +96,27 @@ El script:
 - Cargos mensuales altos elevan el riesgo si no hay valor percibido.
 - Método de pago: electronic check suele asociarse con mayor churn.
 - Servicios/engagement (seguridad, soporte) correlacionan con menor aband
+
+  ## 🛠️ Requisitos
+
+- **Python** 3.9+ (recomendado 3.10/3.11)
+- Librerías:
+  - `pandas` (>=2.0.0)
+  - `numpy` (>=1.24.0)
+  - `requests` (>=2.31.0)
+  - `matplotlib` (>=3.7.0)
+  - `notebook` y `ipykernel` (para abrir/ejecutar notebooks)
+  - `nbconvert` (para ejecutar el `.ipynb` desde terminal)
+
+
+### `requirements.txt` sugerido
+```txt
+pandas>=2.0.0
+numpy>=1.24.0
+requests>=2.31.0
+matplotlib>=3.7.0
+notebook>=7.0.0
+ipykernel>=6.0.0
+nbconvert>=7.0.0
+# opcional:
+# plotly>=5.18.0
