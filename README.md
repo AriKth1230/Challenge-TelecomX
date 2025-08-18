@@ -97,7 +97,7 @@ El script:
 - Método de pago: electronic check suele asociarse con mayor churn.
 - Servicios/engagement (seguridad, soporte) correlacionan con menor aband
 
-  ## 🛠️ Requisitos
+  ##  Requisitos
 
 - **Python** 3.9+ (recomendado 3.10/3.11)
 - Librerías:
